@@ -2,11 +2,11 @@ package hello
 
 class HelloGroovy {
 	public String hi(String name) {
-		return "hi, " + name;
+		return "hi 2.0, " + name;
 	}
 	
 	public static final void main(String[] args) {
-		println new HelloGroovy().hi("Mark 2.0");
+		println new HelloGroovy().hi("Mark");
 	}
 }
 
