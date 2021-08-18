@@ -6,7 +6,7 @@ class HelloGroovy {
 	}
 	
 	public static final void main(String[] args) {
-		println new HelloGroovy().hi("Mark");
+		println new HelloGroovy().hi("Mark 2.0");
 	}
 }
 
