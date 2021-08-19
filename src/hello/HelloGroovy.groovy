@@ -10,6 +10,7 @@ class HelloGroovy {
 	}
 	
 	public static final void test(String... args) {
+		println args;
 		println new HelloGroovy().hi("Mark");
 	}
 }
