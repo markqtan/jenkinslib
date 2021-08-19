@@ -8,5 +8,9 @@ class HelloGroovy {
 	public static final void main(String[] args) {
 		println new HelloGroovy().hi("Mark");
 	}
+	
+	public static final void test(String... args) {
+		println new HelloGroovy().hi("Mark");
+	}
 }
 
