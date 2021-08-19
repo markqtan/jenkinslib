@@ -9,9 +9,9 @@ class HelloGroovy {
 		println new HelloGroovy().hi("Mark");
 	}
 	
-	public static final void test(String... args) {
-		System.out.println(args);
-		System.out.println( new HelloGroovy().hi("Mark") );
+	public static final String test(wf, String... args) {
+		wf.println("args: "+ args);
+		return ( new HelloGroovy().hi("Mark") );
 	}
 }
 
